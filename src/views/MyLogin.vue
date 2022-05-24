@@ -46,7 +46,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 .form-wrap {
   overflow: hidden;
   display: flex;
@@ -166,3 +166,4 @@ export default {
   }
 }
 </style>
+

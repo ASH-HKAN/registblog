@@ -2,9 +2,9 @@
   <div class="form-wrap">
     <form class="MyLogin">
       <h5 class="Mylogin-MyRegister">
-        Dont Have an account ?
-        <router-link class="router-link" :to="{ name: 'register' }">
-          register</router-link
+        Already Have an account ?
+        <router-link class="router-link" :to="{ name: 'login' }">
+          Login</router-link
         >
       </h5>
       <h2>Register on FireBlog</h2>
@@ -55,7 +55,7 @@ export default {
     return {
       firstName: null,
       lastName: null,
-      usrName: null,
+      userName: null,
       email: null,
       password: null,
     };
@@ -67,6 +67,7 @@ export default {
 form {
   h2 {
     color: #002351a5;
+    max-width: 350px;
   }
 }
 </style>
