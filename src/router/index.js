@@ -3,8 +3,8 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import MyBlogs from '../views/MyBlogs.vue'
 import MyLogin from '../views/MyLogin.vue'
-import MyRegister from '../views/MyLogin.vue'
 import ForgotPassword from '../views/ForgotPassword.vue'
+import MyRegister from '../views/MyRegister'
 
 
 Vue.use(VueRouter)
@@ -40,9 +40,10 @@ const routes = [
     name: 'register',
     component: MyRegister,
     meta: {
-      title: 'Register',
+      title: 'MyRegister',
     }
   },
+
   {
     path: '/forgot-password',
     name: 'forgot-password',
@@ -51,6 +52,7 @@ const routes = [
       title: 'Forgot Password',
     }
   },
+
 
 ]
 

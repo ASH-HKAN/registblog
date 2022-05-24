@@ -1,11 +1,9 @@
 <template>
   <div class="form-wrap">
     <form class="MyLogin">
-      <h5 class="Mylogin-Myregister">
+      <h5 class="Mylogin-MyRegister">
         Dont Have an account ?
-        <router-link class="router-link" :to="{ name: 'MyRegister' }"
-          >Register
-        </router-link>
+    <router-link class="router-link" :to="{name:'register'}"> register</router-link>
       </h5>
       <h2>Login to FireBlog</h2>
       <div class="inputs">
@@ -21,7 +19,7 @@
       <router-link class="forgot-password" :to="{ name: 'ForgotPassword' }">
         <h3>Forgot your password</h3></router-link
       >
-      <button class="Singin"><h8>Sign in </h8></button>
+      <button class="SignUp"><h8>Sign in </h8></button>
       <div class="angle"></div>
     </form>
     <div class="background"></div>
@@ -116,7 +114,7 @@ export default {
       }
     }
 
-    .Singin {
+    .SignUp {
       position: relative;
       width: 72px;
       height: 30px;
