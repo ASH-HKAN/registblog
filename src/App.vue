@@ -91,6 +91,12 @@ export default {
   }
 }
 
+.error {
+  text-align: center;
+  
+  color: red;
+}
+
 .blog-card-wrap {
   position: relative;
   padding: 80px 16px;
