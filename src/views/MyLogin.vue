@@ -16,7 +16,7 @@
           <password class="icon" />
         </div>
       </div>
-      <router-link class="forgot-password" :to="{ name: 'ForgotPassword' }">
+      <router-link class="forgot-password" :to="{ name: 'forgot-password' }">
         <h3>Forgot your password</h3></router-link
       >
       <button class="SignUp"><h8>Sign in </h8></button>
